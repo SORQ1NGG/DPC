@@ -7,10 +7,6 @@ body {
     background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
 }
 
-.gradient {
-    width: 100%;
-}
-
 .heading {
     color: #99EFD0;
     font-style: normal;
@@ -93,6 +89,8 @@ body {
     margin-left: 20px;
 }
 
+/* header__wrapper */
+
 .header__content {
     align-items: center;
     display: flex;
@@ -155,6 +153,8 @@ iframe {
     margin-top: 0;
 }
 
+/* header__content */
+
 .sponsors__item {
     margin-left: 74px;
     opacity: 0.5;
@@ -166,7 +166,7 @@ iframe {
 }
 
 .back-image__sponsors {
-    background-image: url(../backImage/starsRight.svg);
+    background-image: url(/img/backImage/starsRight.svg);
     position: absolute;
     width: 250px;
     height: 565px;
@@ -175,12 +175,14 @@ iframe {
     opacity: 0.1;
 }
 
+/* section__sponsors */
+
 .section__choice {
     position: relative;
 }
 
 .back-image__choice {
-    background-image: url(../backImage/starsLeft.svg);
+    background-image: url(../img/backImage/starsLeft.svg);
     position: absolute;
     width: 384px;
     height: 566px;
@@ -240,25 +242,27 @@ iframe {
 }
 
 .choice-horizontal {
-    background-image: url(../imgChoice/Flip-horizontal.svg);
+    background-image: url(/img/imgChoice/Flip-horizontal.svg);
 }
 
 .choice-airpods {
-    background-image: url(../imgChoice/Airpods.svg);
+    background-image: url(/img/imgChoice/Airpods.svg);
 }
 
 .choice-lte {
-    background-image: url(../imgChoice/LTE.svg);
+    background-image: url(/img/imgChoice/LTE.svg);
 }
 
 .choice-thunder {
-    background-image: url(../imgChoice/Thunder-move.svg);
+    background-image: url(/img/imgChoice/Thunder-move.svg);
 }
 
 .choice-attachment {
-    background-image: url(../imgChoice/Attachment.svg);
+    background-image: url(/img/imgChoice/Attachment.svg);
 }
 
 .choice-bulb {
-    background-image: url(../imgChoice/Bulb.svg);
+    background-image: url(/img/imgChoice/Bulb.svg);
 }
+
+/* section__choice */
