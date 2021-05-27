@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F1145;
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
+
+.gradient {
+    width: 100%;
+}
+
+.heading {
+    color: #99EFD0;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.description {
+    line-height: 22px;
+    color: #8476AA;
+    font-size: 18px;
+}
+
+.container {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 104px;
+}
+
+.menu__nav-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.menu__item {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #B5B5B5;
+    padding-left: 10px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.button__text {
+    color: #fff;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-family: Rubik;
+}
+
+.button__active {
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border: 1px solid #F2994A;
+}
+
+.button__disabled {
+    border: 1px solid #F2994A;
+    background-color: transparent;
+}
+
+.header__button {
+    margin-left: auto;
+}
+
+.button__sign {
+    margin-left: 20px;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.header__title {
+    font-size: 44px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    max-width: 500px;
+}
+
+.header_description {
+    max-width: 420px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.button__text_size_m {
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.header__img {
+    width: 580px;
+    max-height: 480px;
+    margin: 0;
+}
+
+.header__video {
+    margin-top: 60px;
+    align-items: center;
+}
+
+iframe {
+    border-radius: 4px;
+    float: left;
+    margin-right: 15px;
+}
+
+.header-video__text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8476AA;
+    margin-bottom: 6px;
+}
+
+.video__text_size_s {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6D6D78;
+    margin-top: 0;
+}
+
+.sponsors__item {
+    margin-left: 74px;
+    opacity: 0.5;
+}
+
+.header__sponsors {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.back-image__sponsors {
+    background-image: url(../backImage/starsRight.svg);
+    position: absolute;
+    width: 250px;
+    height: 565px;
+    left: 994px;
+    top: -6px;
+    opacity: 0.1;
+}
+
+.section__choice {
+    position: relative;
+}
+
+.back-image__choice {
+    background-image: url(../backImage/starsLeft.svg);
+    position: absolute;
+    width: 384px;
+    height: 566px;
+    left: -293px;
+    top: -295px;
+    opacity: 0.1;
+}
+
+.choice {
+    margin-left: 70px;
+}
+
+.heading__choice {
+    font-family: Inter;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.choice__desctiption {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choice__list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 0;
+    align-items: center;
+}
+
+.choice-item__img {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+}
+
+.choice-list__item {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.choice-item__heading {
+    font-size: 18px;
+    line-height: 22px;
+    color: #99EFD0;
+}
+
+.choice-item__description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #8476AA;
+    max-width: 249px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.choice-horizontal {
+    background-image: url(../imgChoice/Flip-horizontal.svg);
+}
+
+.choice-airpods {
+    background-image: url(../imgChoice/Airpods.svg);
+}
+
+.choice-lte {
+    background-image: url(../imgChoice/LTE.svg);
+}
+
+.choice-thunder {
+    background-image: url(../imgChoice/Thunder-move.svg);
+}
+
+.choice-attachment {
+    background-image: url(../imgChoice/Attachment.svg);
+}
+
+.choice-bulb {
+    background-image: url(../imgChoice/Bulb.svg);
+}
