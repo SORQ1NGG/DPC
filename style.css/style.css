@@ -179,6 +179,7 @@ iframe {
 
 .section__choice {
     position: relative;
+    margin-bottom: 160px;
 }
 
 .back-image__choice {
@@ -266,3 +267,70 @@ iframe {
 }
 
 /* section__choice */
+
+.traffic {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.traffic__title {
+    margin: 0 0 32px 0;
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 50px;
+    max-width: 400px;
+    letter-spacing: 1px;
+}
+
+.traffic__title b {
+    color: #F2994A;
+}
+
+.traffic__description {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.traffic__img {
+    position: relative;
+    margin-right: 50px;
+}
+
+.traffic-img__size_l {
+    width: 285px;
+    height: 355px;
+}
+
+.traffig-img__overview {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 133px;
+    top: -22px;
+}
+
+.traffic-img__arrow {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 166px;
+    top: 303px;
+}
+
+.traffic-img__stack {
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    top: 253px;
+    right: -49px;
+    z-index: -50;
+}
+
+.traffic__description {
+    max-width: 480px;
+}
+
+.section__traffic {
+    margin-bottom: 250px;
+}
